@@ -1,0 +1,7 @@
+button:focus {
+    border-style: outset !important;
+    color:blue
+  }
+  button{
+    color:red;
+  }
