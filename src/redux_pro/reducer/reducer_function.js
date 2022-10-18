@@ -87,6 +87,10 @@ export const cart_function = (state = initial_value, action) => {
            // ...state,cart_items:[...state.cart_items,state.cart_items[index].qty +=1] not working..
             ...state,cart_items:quantity2
          }
+         case "TOTAL_CLEAR":
+            return{
+               ...state,cart_items:[]
+            }
       default: return state;
    }
 };

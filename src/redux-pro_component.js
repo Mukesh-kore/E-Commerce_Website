@@ -8,23 +8,29 @@ import WomenClothsComponent from './redux_pro/component/Sections_component/Women
 import JewelryComponent from './redux_pro/component/Sections_component/JewelryComponent';
 import MensClothsComponent from './redux_pro/component/Sections_component/MensClothingComponent';
 import CartComponent from './redux_pro/component/CartComponent';
-const ReduxProComponent = () => { 
+// import banner from '../public/assets/banner.jpg'
+const ReduxProComponent = () => {
     const styles = {
-        display: "flex",
+        display: "grid",
         justifyContent: "center",
         marginTop: "10px",
-        paddingTop:80
+        gridAutoFlow: "column"
+       
     }
     return (
 
         <>
             <Router>
                 <HeaderComponent />
-                <div style={styles}>
-                    <div >
+                
+                <div >
+                <div>
+                    <img src="./assets/image.jpg"style={{height:'320px',width:"100%", paddingTop: 70}}/>
+                </div>
+                    <div style={styles}>
                         <Link to="/" className='btn btn-outline-secondary me-2'>All</Link>
-                        <Link to="/MensClothsComponent" className='btn btn-outline-secondary me-2'>MensClothing</Link>
                         <Link to="/WomenClothsComponent" className='btn btn-outline-secondary me-2'>Women Clothing</Link>
+                        <Link to="/MensClothsComponent" className='btn btn-outline-secondary me-2'>MensClothing</Link>
                         <Link to="/JewelryComponent" className='btn btn-outline-secondary me-2'>Jewelry</Link>
                         <Link to="/ElectronicsComponent" className='btn btn-outline-secondary '>Electronics</Link>
                     </div>

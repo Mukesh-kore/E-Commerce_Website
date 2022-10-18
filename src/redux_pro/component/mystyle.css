@@ -5,3 +5,44 @@ button:focus {
   button{
     color:red;
   }
+  .main_div{
+    /* border:2px solid red; */
+    margin-top:30px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    row-gap:20px;
+    column-gap:20px   
+  }
+  @media only screen and (max-width: 992px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .main_div{
+      display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .main_div{
+      display:grid;
+     grid-template-columns: 1fr 1fr ;
+      
+    }
+  }
+  @media only screen and (max-width: 434px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .main_div{
+      display:grid;
+     grid-template-columns: 1fr ;
+      
+    }
+    .clear_cart{
+      display:none
+    }
+  }

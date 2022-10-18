@@ -1,9 +1,10 @@
 import React from "react";
+// import mystyle from '/mystyle.cssz'
 import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import { items_added, item_removed } from "../action/productAction";
-// import './mystyle.css'
+import './mystyle.css'
 const Product_component = () => {
     const products = useSelector((state) => state.all_reducers.product);
     const { cart_items } = useSelector((state) => state.cart_items);
@@ -17,11 +18,11 @@ const Product_component = () => {
     return (
         <> 
            <div className="container">
-            <div className="row  mt-4 ">
+            <div className="main_div ">
                 {
                     products.map(p => {
                         return (
-                            <div className="col-3 mb-4" key={p.id} >
+                            <div  key={p.id} >
 
                                 <div className="card ">
                                     <Link to={`/ProductDetails/${p.id}`} style={{ textDecoration: "none", color: "black" }}>

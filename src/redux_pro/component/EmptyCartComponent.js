@@ -7,7 +7,7 @@ export default function EmptyCartComponent(){
         <>
       
         <div style={{height:"100vh",display:"flex",flexDirection:"column",
-        marginTop:"30px",alignItems:'center'}}>
+        marginTop:"10px",alignItems:'center'}}>
         <img src="/assets/flipkart.webp" alt="ghjk"style={{height:250,width:250,}}></img>
         <h3>your cart is empty</h3>
        
@@ -15,9 +15,6 @@ export default function EmptyCartComponent(){
         <button className='btn btn-secondary'>shop Now</button>
         </Link>
         </div>
-
-
-       
         </>
     )
 }

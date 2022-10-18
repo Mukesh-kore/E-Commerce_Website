@@ -45,14 +45,14 @@ import AxiosPracticeComponent from './components/AxiosPracticeComponent';
 const comp = ReactDOM.createRoot(document.getElementById('root'));
 comp.render(
  
-  // <React.StrictMode>
-  // <Provider store={store_redux_pro}>
-  //     < ReduxProComponent/>
-  //   </Provider>
-  // </React.StrictMode>
   <React.StrictMode>
-    <AxiosPracticeComponent/>
+  <Provider store={store_redux_pro}>
+      < ReduxProComponent/>
+    </Provider>
   </React.StrictMode>
+  // <React.StrictMode>
+  //   <AxiosPracticeComponent/>
+  // </React.StrictMode>
 
 );
 // ReactDOM.render(

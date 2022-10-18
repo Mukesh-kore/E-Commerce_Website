@@ -37,3 +37,9 @@ export const qty_added=(item1)=>{
         payload:item1
     }
 }
+// export const total_clear=(item1)=>{
+    
+//     return{
+//         type:"TOTAL_CLEAR"
+//     }
+// }
