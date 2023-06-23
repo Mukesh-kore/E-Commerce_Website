@@ -42,6 +42,8 @@ import reportWebVitals from './reportWebVitals';
 // import UseMemoComponent from './components/useMemoComponent';
 // import UseCallBackComponent from './components/UseCallBaackComponent';
 // import AxiosPracticeComponent from './components/AxiosPracticeComponent';
+// here new component is added
+
 const comp = ReactDOM.createRoot(document.getElementById('root'));
 comp.render(
  
