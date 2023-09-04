@@ -13,7 +13,7 @@ export default function CartComponent() {
     let dispatch = useDispatch();
     let [total, setTotal] = useState(null)
     const myStyle = {
-        height: "40px",
+        height: "60px",
         //    backgroundColor:"red",
         position: "fixed",
         left: 0,

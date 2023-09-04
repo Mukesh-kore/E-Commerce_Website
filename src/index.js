@@ -15,19 +15,19 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 // import AxiosComponent from './components/AxiosComponent';
 // import KeyImportance from './components/Keys_importance';
 // import RouteComponent from './components/RouteComponent';
-// // import IndexComponent from './components/AmazonSite/IndexComponent';
+// import IndexComponent from './components/AmazonSite/IndexComponent';
 // import Login from './components/UseCookieDemo';
 // import ContextDemoComponent from './components/UseContextComponent';
 // import UseStateComponent from './components/useStateComponent';
 // import UseReducerComponent from './components/UseReducerComponent';
 
 // import DemoState from './components/state';
-// // import LifeCycleComponent from './components/AmazonSite/LifeCycleComponent';
+// import LifeCycleComponent from './components/AmazonSite/LifeCycleComponent';
 // import UseEffectComponent from './components/UseEffectComponent';
 
 // import store from "./store";
 // import ReducerComponent from './ReducerComponent';
-import './reducer.css'
+// import './reducer.css'
 import { Provider } from "react-redux";
 
 
@@ -42,8 +42,6 @@ import reportWebVitals from './reportWebVitals';
 // import UseMemoComponent from './components/useMemoComponent';
 // import UseCallBackComponent from './components/UseCallBaackComponent';
 // import AxiosPracticeComponent from './components/AxiosPracticeComponent';
-// here new component is added
-
 const comp = ReactDOM.createRoot(document.getElementById('root'));
 comp.render(
  
